@@ -1,16 +1,18 @@
 # Web3.py-Transaction
-Creating and Submitting Transactions to Web3 Enabled Blockchains using JSON-RPC endpoints.
+Practical implementation of the Web3.py module.
+## Installation
+```
+git clone https://github.com/Hardchat/Web3.py-Transaction/
 
-# Installation
-```git clone https://github.com/Hardchat/Web3.py-Transaction/```
-
-# Usage
+pip3 install web3
+```
+## Usage
 1. Select the Blockchain you want to use by entering the corresponding number.
 2. Enter your wallet details
 3. Enter the wallet address you want to send your coins to.
 4. View your transaction at the link provided.
 
-# Notes
+## Notes
 **Disclaimer**: This program is functional but is a Proof of Concept that illustrates Web3.py usage. If you want a more secure and feature-rich solution, the Metamask wallet is suggested. 
 
 **Gas**: This implementation uses the built-in estimate gas function of Web3.py and a static gas limit of 100,000 to cover these native token transactions.
