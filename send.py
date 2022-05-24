@@ -23,7 +23,7 @@ elif choice == "3":
     multivac = Blockchain("62621", "https://rpc.mtv.ac", "https://e.mtv.ac/transaction.html?hash=")
     choice = multivac
 else:
-    print("\n[Error]: Please input the correct number of the Blockchain you want to utilize.")
+    print("\n[Error]: Please input the correct number of the Blockchain you want to utilize.\n")
     exit()
 
 rpc_url = Web3(Web3.HTTPProvider(choice.rpc_url))

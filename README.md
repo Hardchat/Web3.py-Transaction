@@ -1,5 +1,5 @@
 # Web3.py-Transaction
-Practical implementation of the Web3.py module.
+Practical implementation of the Web3.py module. Enabling user's to send coins across 3 different Blockchains.
 ## Installation
 ```
 git clone https://github.com/Hardchat/Web3.py-Transaction/
